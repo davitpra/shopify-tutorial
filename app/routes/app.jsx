@@ -1,3 +1,5 @@
+// This layout should be used for authenticated routes that render inside the Shopify admin.
+// It's responsible for configuring App Bridge and Polaris, and authenticating the user using shopify-app-remix
 import React from "react";
 import { json } from "@remix-run/node";
 import { Link, Outlet, useLoaderData, useRouteError } from "@remix-run/react";
